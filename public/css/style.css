@@ -1,0 +1,259 @@
+/******* General Sytles *****/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html{
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #181818;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/****** Header ******/
+
+h1{
+    color: #1ba1f2 ;
+    font-size: 30px;
+}
+h2{
+    color: white ;
+    font-size: 26px;
+    font-style: bold;
+}
+h3{
+    color: white ;
+    font-size: 22px;
+    font-style: bold;
+}
+
+h4{
+    color:white ;
+    font-style: bold;
+    font-size: 18px;
+}
+h5{
+    font-size: 14px; 
+}
+
+
+/****** Menu  *****/
+
+.menu{
+    height: 56px;
+    padding: 0 70px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px #3a3a3a solid;
+}
+
+.menu::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.menu nav a{
+    float: right;
+    color: white;
+    font-size: 14px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu nav a.active{
+    color:#1ba1f2;
+}
+
+.brand{
+    width:2%;
+    padding: 14px 16px;   
+    float: left;
+}
+
+/******* Buttons ********/
+
+.button-login{
+    border-radius: 2px;
+    font-size: 1px;
+    text-decoration: none;
+    color: white;
+    background-color: #1ba1f2;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-blue{
+    padding: 10px 15px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background-color:  #1ba1f2;
+    cursor: pointer;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.button-resume{
+    text-align: center;
+    margin-top:5%;
+}
+
+/***** Flex Box *****/
+
+.flex{
+    /*display: grid;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    /*grid-template-columns: auto; */
+
+}
+
+.flex-1{
+    text-align: left;
+    padding: 20px;
+    margin-top: 8%;
+    width: 30%;
+    padding: 5px 20px 5px 20px;
+    height: 500px;
+}
+
+.flex-2{
+   text-align: center;
+   width: 65%;
+   margin-top: 2%;
+}
+
+.flex-2 a:hover{
+    color:white;
+}
+
+/******* Home page style *****/
+
+.myname{
+    float:left;
+}
+.img{
+    width: 88%;
+}
+
+.about{
+    margin-top:50%;
+    color:#a2a2a2;
+}
+
+/****** Content Container ******/
+
+.content-container{
+    background-color:#181818;
+    border: 1px #3a3a3a solid;
+    border-radius: 7px;
+    color: #a2a2a2;
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+   
+}
+
+
+/******** Skills page style ********/
+
+.contact-form input[type="text"], .contact-form select, .contact-form textarea{
+    background-color: #3a3a3a;
+    color: white;
+}
+
+.contact-form textarea{
+    padding: 10px 10px;
+}
+
+.grid-skills{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 2;
+    display: grid;
+    grid-row-gap: 100px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 5%;
+    
+}
+.grid-skills-item{
+    width: 40%;
+}
+
+
+/****** List *******/
+
+
+
+ul{
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+b{
+    color: #1ba1f2;
+}
+
+/******* table database *********/
+.empt{
+    margin-top: 300px;
+
+} 
+
+.dept{
+    
+    float: left;
+} 
+
+/***** Display ****/
+
+.enable{
+    display: block;
+}
+
+.disable{
+    display: none;
+}
+
+
+/******* footer ********/
+
+footer{
+    position: fixed;
+    width: 100%;
+    left:0;
+    bottom:0;
+    color:grey;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+
